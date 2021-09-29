@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFood</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="#" class="header__logo logo"><span class="orange">e</span>Food</a>
+                <div class="header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link menu__link--active" href="#">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Services</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Top cities</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="header__sign-up-btn header__sign-up-btn--mobile btn" href="#">Sign Up</a>
+                </div>
+                <div class="header__search">
+                    <div class="search-form">
+                        <button type="button" class="search-form__icon _icon-search"></button>
+
+                        <form action="#" class="search-form__item">
+                            <button type="button" class="search-form__icon _icon-search"></button>
+                            <input type="text" autocomplete="off" name='form[]' class='search-form__input'>
+                        </form>
+                    </div>
+                </div>
+                <div class="header__cart cart-header">
+                    <a href="" class="cart-header__icon _icon-shopping-cart"><span>1</span></a>
+                    <div class="cart-header__body">
+                        <ul class="cart-header__list cart-list"></ul>
+                    </div>
+                </div>
+                <a class="header__sign-up-btn header__sign-up-btn--desktop btn" href="#">Sign Up</a>
+                <div class="icon-menu">
+                    <span></span>
+                </div>
+
+            </div>
+        </header>
+        <main class="page">
+            <div class="btnUp btnUp--visible _icon-arrow-right"></div>
+            <section class="hero">
+                <div class="hero__container _container">
+                    <div class="hero__content">
+                        <div class="hero__title title">super fast <span class="orange">food delivery</span> service
+                        </div>
+                        <div class="hero__text text">We provide super fast-delivery service. Let’s use our services
+                            right now and get discounts of up to 50%</div>
+                        <div class="hero__btns">
+                            <a href="" class="hero__explore-btn btn">Explore food</a>
+                            <a href="" class="hero__download-btn">Download App</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="category">
+                <div class="category__container _container">
+                    <div class="category__title title">Our popular <span class="orange">Category</span></div>
+                    <div class="category__body tab__category">
+                        <div class="tab__names">
+                            <div class="tab__name _icon-burger tab__name--active" data-tab-name="tab1">Burgers</div>
+                            <div class="tab__name _icon-pizza" data-tab-name="tab2">Pizza</div>
+                            <div class="tab__name _icon-sandwich" data-tab-name="tab3">Sandwich</div>
+                            <div class="tab__name _icon-asia" data-tab-name="tab4">Asian Food</div>
+                            <div class="tab__name _icon-set" data-tab-name="tab5">Set Menu</div>
+                        </div>
+                        <div class="tab__content">
+                            <div class="tab__body tab__body--active" id="tab1">
+                                <div class="swiper tab__slider">
+                                    <div class="swiper-wrapper tab__slider-wrapper">
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/burgers/burger_1.webp"
+                                                            type="image/webp"><img
+                                                            src="img/category/burgers/burger_1.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Cheeseburger With Salad</div>
+                                                <div class="item__price">18.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/burgers/burger_2.webp"
+                                                            type="image/webp"><img
+                                                            src="img/category/burgers/burger_2.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Beef Burger</div>
+                                                <div class="item__price">15.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/burgers/burger_3.webp"
+                                                            type="image/webp"><img
+                                                            src="img/category/burgers/burger_3.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Royel Cheeseburger</div>
+                                                <div class="item__price">16.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/burgers/burger_4.webp"
+                                                            type="image/webp"><img
+                                                            src="img/category/burgers/burger_4.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Black Gambugrer </div>
+                                                <div class="item__price">19.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/burgers/burger_5.webp"
+                                                            type="image/webp"><img
+                                                            src="img/category/burgers/burger_5.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Chicken Burger</div>
+                                                <div class="item__price">15.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/burgers/burger_1.webp"
+                                                            type="image/webp"><img
+                                                            src="img/category/burgers/burger_1.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Cheeseburger With Salad</div>
+                                                <div class="item__price">18.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-pagination"></div>
+
+                                    <div class="swiper-button swiper-button-prev"></div>
+                                    <div class="swiper-button swiper-button-next"></div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="tab__body" id="tab2">
+                                <div class="swiper tab__slider">
+                                    <div class="swiper-wrapper tab__slider-wrapper">
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/pizza/1.webp" type="image/webp">
+                                                        <img src="img/category/pizza/1.jpg" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">All Meat</div>
+                                                <div class="item__price">10.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/pizza/2.webp" type="image/webp">
+                                                        <img src="img/category/pizza/2.jpg" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Cheeseburger</div>
+                                                <div class="item__price">11.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/pizza/3.webp" type="image/webp">
+                                                        <img src="img/category/pizza/3.jpg" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Hawaiian</div>
+                                                <div class="item__price">16.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/pizza/4.webp" type="image/webp">
+                                                        <img src="img/category/pizza/4.jpg" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Pepperoni Jalapeno</div>
+                                                <div class="item__price">14.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/pizza/5.webp" type="image/webp">
+                                                        <img src="img/category/pizza/5.jpg" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Greek</div>
+                                                <div class="item__price">15.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide item__slide">
+                                            <div class="item__body">
+                                                <div class="item__img">
+                                                    <picture>
+                                                        <source srcset="img/category/pizza/2.webp" type="image/webp">
+                                                        <img src="img/category/pizza/2.jpg" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__stars">
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                    <picture>
+                                                        <source srcset="img/category/star.webp" type="image/webp"><img
+                                                            src="img/category/star.png" alt="">
+                                                    </picture>
+                                                </div>
+                                                <div class="item__name">Cheeseburger</div>
+                                                <div class="item__price">11.00</div>
+                                                <button class="item__btn">Add to Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-pagination"></div>
+
+                                    <div class="swiper-button swiper-button-prev"></div>
+                                    <div class="swiper-button swiper-button-next"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__container _container">
+                    <div class="about__img">
+                        <picture>
+                            <source srcset="img/about/about-img.webp" type="image/webp"><img
+                                src="img/about/about-img.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="about__content">
+                        <div class="about__title title"><span class="orange">Stay</span> at home, we will Provide <span
+                                class="orange">good food</span>
+                        </div>
+                        <div class="about__text text">We provide tasty food and superfast delivery at your home. Let’s
+                            use our
+                            services right now and get discounts of up to 50%.</div>
+                        <ul class="about__stats">
+                            <li class="about__stats-item">
+                                <picture>
+                                    <source srcset="img/about/Timer.webp" type="image/webp"><img
+                                        src="img/about/Timer.png" alt="">
+                                </picture> fasted delivery in 30 Minutes
+                            </li>
+                            <li class="about__stats-item">
+                                <picture>
+                                    <source srcset="img/about/Delivery.webp" type="image/webp"><img
+                                        src="img/about/Delivery.png" alt="">
+                                </picture> 300+ delivery men
+                            </li>
+                            <li class="about__stats-item">
+                                <picture>
+                                    <source srcset="img/about/Resturent.webp" type="image/webp"><img
+                                        src="img/about/Resturent.png" alt="">
+                                </picture> 500+ restaurant & cafe shop
+                            </li>
+                        </ul>
+                        <a href="" class="about__more-btn btn">See more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="restaurant">
+                <div class="restaurant__container _container">
+                    <div class="restaurant__title title">top Food <span class="orange">restaurant</span></div>
+                    <div class="restaurant__body">
+                        <div class="restaurant__column">
+                            <div class="restaurant__item">
+                                <div class="restaurant__img">
+                                    <picture>
+                                        <source srcset="img/restaurant/1.webp" type="image/webp"><img
+                                            src="img/restaurant/1.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="restaurant__name">Blaze Pizza</div>
+                                <div class="restaurant__time _icon-timer">11.00 AM - 10.00 PM</div>
+                                <button class="restaurant__btn btn _icon-arrow-right"></button>
+                            </div>
+                        </div>
+                        <div class="restaurant__column">
+                            <div class="restaurant__item">
+                                <div class="restaurant__img">
+                                    <picture>
+                                        <source srcset="img/restaurant/2.webp" type="image/webp"><img
+                                            src="img/restaurant/2.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="restaurant__name">Pizza Ranch</div>
+                                <div class="restaurant__time _icon-timer">9.00 AM - 10.00 PM</div>
+                                <button class="restaurant__btn btn _icon-arrow-right"></button>
+                            </div>
+                        </div>
+                        <div class="restaurant__column">
+                            <div class="restaurant__item">
+                                <div class="restaurant__img">
+                                    <picture>
+                                        <source srcset="img/restaurant/3.webp" type="image/webp"><img
+                                            src="img/restaurant/3.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="restaurant__name">Dion’s Pizza Hut</div>
+                                <div class="restaurant__time _icon-timer">10.00 AM - 12.00 PM</div>
+                                <button class="restaurant__btn btn _icon-arrow-right"></button>
+                            </div>
+                        </div>
+                        <div class="restaurant__column">
+                            <div class="restaurant__item">
+                                <div class="restaurant__img">
+                                    <picture>
+                                        <source srcset="img/restaurant/4.webp" type="image/webp"><img
+                                            src="img/restaurant/4.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="restaurant__name">Royal Burger</div>
+                                <div class="restaurant__time _icon-timer">10.00 AM - 10.00 PM</div>
+                                <button class="restaurant__btn btn _icon-arrow-right"></button>
+                            </div>
+                        </div>
+                        <div class="restaurant__column">
+                            <div class="restaurant__item">
+                                <div class="restaurant__img">
+                                    <picture>
+                                        <source srcset="img/restaurant/5.webp" type="image/webp"><img
+                                            src="img/restaurant/5.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="restaurant__name">KFC</div>
+                                <div class="restaurant__time _icon-timer">9.00 AM - 10.00 PM</div>
+                                <button class="restaurant__btn btn _icon-arrow-right"></button>
+                            </div>
+                        </div>
+                        <div class="restaurant__column">
+                            <div class="restaurant__item">
+                                <div class="restaurant__img">
+                                    <picture>
+                                        <source srcset="img/restaurant/6.webp" type="image/webp"><img
+                                            src="img/restaurant/6.jpg" alt="">
+                                    </picture>
+                                </div>
+                                <div class="restaurant__name">Star Food</div>
+                                <div class="restaurant__time _icon-timer">10.00 AM - 12.00 PM</div>
+                                <button class="restaurant__btn btn _icon-arrow-right"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="download">
+                <div class="download__container _container">
+                    <div class="download__body">
+                        <div class="download__title title">Download Our <span class="orange">Mobile App</span></div>
+                        <div class="download__text text">It's all at your fingertips - the restaurants you love. Find
+                            the right food
+                            to suit your mood, and make the first bite last. Go ahead, download app and get 50%
+                            discount.</div>
+                        <div class="download__btns">
+                            <a href="" class="download__btn">
+                                <picture>
+                                    <source srcset="img/download/AppStore.webp" type="image/webp"><img
+                                        src="img/download/AppStore.png" alt="">
+                                </picture>
+                            </a>
+                            <a href="" class="download__btn">
+                                <picture>
+                                    <source srcset="img/download/GooglePlay.webp" type="image/webp"><img
+                                        src="img/download/GooglePlay.png" alt="">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="download__imgs">
+                        <!-- <picture><source srcset="img/download/1.webp" type="image/webp"><img class="download__img dImg1" src="img/download/1.png" alt=""></picture>
+            <picture><source srcset="img/download/2.webp" type="image/webp"><img class="download__img dImg2" src="img/download/2.png" alt=""></picture>
+            <picture><source srcset="img/download/3.webp" type="image/webp"><img class="download__img dImg3" src="img/download/3.png" alt=""></picture> -->
+                        <picture>
+                            <source srcset="img/download/download-img.webp" type="image/webp"><img
+                                class="download__img dImg3" src="img/download/download-img.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+            <section class="feedback">
+                <div class="feedback__container _container">
+                    <div class="feedback__title title">What Our Client Are <span class="orange">Saying</span></div>
+                    <div class="feedback__body">
+                        <div class="swiper swiper-feedback">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide feedback-slide">
+                                    <div class="feedback-slide__img">
+                                        <picture>
+                                            <source srcset="img/feedback/client-img.webp" type="image/webp"><img
+                                                src="img/feedback/client-img.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="feedback-slide__text text">EFood has the most intriguing food order
+                                        system in the country. UI in both their app and web Is very simple and easy to
+                                        use, enhancing the UX. Their delivery men are also quite professional and knows
+                                        the neighborhood well. Till now I never had to guide them to my address for
+                                        delivery.</div>
+                                    <div class="feedback-slide__client-name">Anglina Jole</div>
+                                </div>
+                                <div class="swiper-slide feedback-slide">
+                                    <div class="feedback-slide__img">
+                                        <picture>
+                                            <source srcset="img/feedback/photo_2021-07-21_13-35-52.webp"
+                                                type="image/webp"><img src="img/feedback/photo_2021-07-21_13-35-52.jpg"
+                                                alt="">
+                                        </picture>
+                                    </div>
+                                    <div class="feedback-slide__text text">Lorem ipsum dolor sit, amet tetur adipisicing
+                                        elit. Exercitationem, quia.</div>
+                                    <div class="feedback-slide__client-name">Adam Alderson</div>
+                                </div>
+                            </div>
+                            <div class="swiper-feedback-button-prev _icon-arrow-right"></div>
+                            <div class="swiper-feedback-button-next _icon-arrow-right"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="subscribe">
+                <div class="subscribe__container _container">
+                    <div class="subscribe__wrapper">
+                        <div class="subscribe__body">
+                            <div class="subscribe__title title">Subscribe to get the Latest Offer</div>
+                            <div class="subscribe__text text">Get our daily updates by subscribing to our newspaper,
+                                please drop your email
+                                below.</div>
+                            <form action="#" class="subscribe-form__item">
+                                <input type="text" placeholder="Enter your email addres" autocomplete="off"
+                                    name='form[]' class='subscribe-form__input'>
+                                <button type="button"
+                                    class="subscribe-form__btn _icon-subscribe"><span>Subscribe</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__top">
+                    <div class="footer__column">
+                        <a href="#" class="footer__logo logo"><span class="orange">e</span>Food</a>
+                        <a href="https://maps.google.com/maps?q=Dhaka,+Bangladesh"
+                            class="footer__contacts _icon-location">Dhaka,
+                            Bangladesh</a>
+                        <a href="tel:0943833399" class="footer__contacts _icon-calling">0943833399</a>
+                        <a href="mailto:support@efood.com" class="footer__contacts _icon-mail">support@efood.com</a>
+                        <div class="footer__social social">
+                            <a href="#" class="social__link _icon-facebook"></a>
+                            <a href="#" class="social__link _icon-instagram"></a>
+                            <a href="#" class="social__link _icon-twitter"></a>
+                            <a href="#" class="social__link _icon-pinterest"></a>
+                        </div>
+                    </div>
+                    <div class="footer__column details">
+                        <div class="footer__label details__title">Service</div>
+                        <nav class="footer__menu menu-footer details__body">
+                            <ul class="menu-footer__list">
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">How it works</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Home delivery</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Products</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Menu</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__column details">
+                        <div class="footer__label details__title">Company</div>
+                        <nav class="footer__menu menu-footer details__body">
+                            <ul class="menu-footer__list">
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">About Us</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">News</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Our trusted partner</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">New users FAQ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__column details">
+                        <div class="footer__label details__title">Supports</div>
+                        <nav class="footer__menu menu-footer details__body">
+                            <ul class="menu-footer__list">
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Help center</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Feedback</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Contact us</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Terms conditins</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__column details">
+                        <div class="footer__label details__title">Resources</div>
+                        <nav class="footer__menu menu-footer details__body">
+                            <ul class="menu-footer__list">
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Download app</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Blog</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">What’s new</a>
+                                </li>
+                                <li class="menu-footer___item">
+                                    <a href="" class="menu-footer__link">Sitemap</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__rights">© 2021 EFood - All rights reserved.</div>
+                    <div class="footer__info-links">
+                        <a href="#" class="footer__info-link">Privacy</a>
+                        <a href="#" class="footer__info-link">Security</a>
+                        <a href="#" class="footer__info-link">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
